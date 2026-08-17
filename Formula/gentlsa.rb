@@ -1,25 +1,25 @@
 class Gentlsa < Formula
   desc "Simple tool for dealing with DANE/TLSA records"
   homepage "https://github.com/BradKollmyer/gentlsa"
-  version "0.3.4"
+  version "0.3.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.4/gentlsa-aarch64-apple-darwin.tar.xz"
-      sha256 "4494ae1e72aa0317d1614fe7473d5c26dd3f724d2321f1120a65e84b949de775"
+      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.5/gentlsa-aarch64-apple-darwin.tar.xz"
+      sha256 "43b2b7c52b57ad6435ca97663e3b83478f2f9753897e452edd5038bb6b4fd583"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.4/gentlsa-x86_64-apple-darwin.tar.xz"
-      sha256 "68a96fe00c920f1626b025bb8c7ada7644bd40876b69c2a88e2fe35b9af8de7a"
+      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.5/gentlsa-x86_64-apple-darwin.tar.xz"
+      sha256 "29e2cadfcff4b8e3842925c0674bd566f8efa88f3b2cf4dc93303b8a0f776412"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.4/gentlsa-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0029b7913a02a9d2124f0c4e8eecea9bc2ea7f42cc962ec59cee2c31d3321507"
+      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.5/gentlsa-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "19ae7b778faca0ea0813f5025b83db6e3841aa4c00abf757191af9785801b433"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.4/gentlsa-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1bfb435f277a881a4607b33badf136d49c92c5bd4203f410d7a5beba5e6064bd"
+      url "https://github.com/BradKollmyer/gentlsa/releases/download/v0.3.5/gentlsa-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5889896e661cdd9f6fe9c677e1bc75cda5a07e51b159fb0615dba7e11e56c2ed"
     end
   end
   license "BSD-2-Clause"
